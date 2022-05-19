@@ -193,6 +193,7 @@ hr + .container ul a:hover {
 }
 
 h3 {
+    margin-top: 55px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -222,7 +223,7 @@ h3 {
 }
 
 .card-text p {
-    margin: 20px 30px;
+    padding: 10px 0;
 }
 
 .card-text p+p {
@@ -232,6 +233,7 @@ h3 {
     text-align: center;
     letter-spacing: 0.05em;
     color: #000000;
+    margin: -20px 0;
 }
 
 
@@ -244,7 +246,7 @@ h3 {
     border-radius: 30px;
     border:0;
     padding: 9px 39px;
-    margin: 10px 0 25px 0;
+    margin: 20px 0 25px 0;
 }
 
 
@@ -254,11 +256,11 @@ h3 {
 }
 
 .card-item {
-    padding: 35px 40px 25px 40px;
+    padding: 0px 10px 0px 5px;
     width: 49%;
     background: #F13C6E;
     float: left;
-    margin: 50px 0 100px 0px;
+    margin: 15px 0 100px 0px;
 }
 
 .card-item__img {
@@ -281,14 +283,14 @@ h3 {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
-    margin: 0 0 25px 0;
+    margin: 0 0 15px 0;
 }
 
 .card-item__about {
     display: inline-block;
     line-height: 20px;
     color: #FFFFFF;
-    margin: 0 0 25px 0;
+    margin: 0 0 40px 0;
 }
 
 .card-item + .card-item .card-item__about {
@@ -301,17 +303,18 @@ input[type=email] {
     display: block;
     background: #FFFFFF;
     border-radius: 30px;
-    margin: 0 25px 0 0;
-    padding: 5px;
+    margin: -20px 0 0 0;
+    padding: 10px;
 }
 
 .card-item__text a {
     display: inline-block;
+    width: 170px;
     background: #F13C6E;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     padding: 5px;
-    margin: 12px 0 10px 0;
+    margin: 5px 0 10px 0;
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
@@ -342,6 +345,14 @@ tr {
 td {
     border: 1px solid #EFEFEF;
     padding: 35px 60px;
+}
+
+table + h3 {
+    padding: 45px 0;
+}
+
+table + h3 + .cards {
+    margin: -45px 0 -15px 10px;
 }
 
 #footer .hero-section {
