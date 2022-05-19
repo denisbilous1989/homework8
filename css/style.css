@@ -297,6 +297,7 @@ h3 {
 }
 
 input[type=email] {
+    width: 225px;
     display: block;
     background: #FFFFFF;
     border-radius: 30px;
