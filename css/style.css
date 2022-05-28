@@ -347,8 +347,8 @@ input[type="email"] {
 
 .categori-card {
   display: inline-block;
-  max-width: 80px;
-  margin: 50px 102px;
+  margin: 50px 100px;
+
 }
 
 .categori-card h2 {
@@ -356,6 +356,7 @@ input[type="email"] {
   font-size: 16px;
   line-height: 22px;
   color: #000000;
+  max-width: 100px;
 }
 
 .categori-card a {
@@ -373,10 +374,12 @@ input[type="email"] {
 
 .container .categori-card:first-child {
   margin-left: 0px;
+  
 }
 
 .container .categori-card:last-child {
   margin-right: 0px;
+  
 }
 
 .icons {
